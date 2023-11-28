@@ -60,3 +60,26 @@
     color: #f6f6f6;
   }
   
+  /* Complemento dos botões */
+  .campo_informacoes,
+  .botao,
+  .btn_apagar {
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+  }
+
+  .botao:hover{
+    background-color: #f6f6f6;
+    color: #111;
+  }
+
+  .btn_apagar {
+    background-color: red;
+    color: #ffffff;
+  }
+
+  .btn_apagar:hover {
+    background-color:rgb(236, 107, 107);
+  }

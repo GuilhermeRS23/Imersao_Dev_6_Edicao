@@ -12,9 +12,9 @@
 <body>
     <h1>Classificação EA Sports FC 24</h1>
 
-    <input type="text" id="campoNomeJogador" placeholder="digite o nome do jogador" />
-    <input type="link" id="imagem_avatar" placeholder="coloque link da imagem" />
-    <button onClick="criarJogador()">Adicionar novo jogador</button>
+    <input type="text" class="campo_informacoes" id="campoNomeJogador" placeholder="Digite o nome do jogador" />
+    <input type="link" class="campo_informacoes" id="imagem_avatar" placeholder="Coloque link da imagem" />
+    <button onClick="criarJogador()" class="botao" >Adicionar novo jogador</button>
     
     <table style="width:100%">
         <thead>
@@ -28,12 +28,12 @@
                 <th colspan="3">Ações</th>
             </tr>
         </thead>
-        <tbody id="tabelaJogadores">
+        <tbody id="tabelaJogadores"">
             
         </tbody>
     </table>
 
-    <button onClick="apagarJogadores()">Apagar todos os jogadores</button>
+    <button class="btn_apagar" onClick="apagarJogadores()">Apagar todos os jogadores</button>
 
 </body>
 
